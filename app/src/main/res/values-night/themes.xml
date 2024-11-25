@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <!--        <item name="fontFamily">@font/app_font</item>-->
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="Theme.AppCompat.Light.NoActionBar" />
+
+
+    <style name="AppTheme.NoActionBar.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="button" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:background">@drawable/background</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="card" parent="CardView">
+        <item name="android:layout_margin">@dimen/appbar_padding_top</item>
+        <item name="cardCornerRadius">@dimen/small_scale</item>
+        <item name="cardElevation">@dimen/small_scale</item>
+        <item name="cardBackgroundColor">@color/white</item>
+    </style>
+
+    <style name="plainCard" parent="CardView">
+        <!--        <item name="android:layout_margin">@dimen/custom_padding</item>-->
+        <!--        <item name="cardCornerRadius">@dimen/custom_padding</item>-->
+        <item name="cardElevation">0dp</item>
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="cardCornerRadius">0dp</item>
+        <item name="android:layout_marginBottom">@dimen/custom_padding</item>
+    </style>
+
+</resources>

@@ -1,0 +1,18 @@
+<!-- res/menu/hamburger_menu.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_new_file"
+        android:title="New File" />
+    <item
+        android:id="@+id/action_load_file"
+        android:title="Load File" />
+    <item
+        android:id="@+id/action_select_map"
+        android:title="Select Map" />
+    <item
+        android:id="@+id/action_settings"
+        android:title="Settings" />
+    <item
+        android:id="@+id/action_share_file"
+        android:title="Share File" />
+</menu>
